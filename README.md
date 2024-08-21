@@ -1,5 +1,7 @@
 # Baby Sleep Radio Monitor
 Project done for the Engineering Experience class @ Group T - Faculty of Engineering Technology / academic year 2022-23
+[Full Text PDF](Baby%20Sleep%20Radio%20Monitor.pdf)
+
 
 This repository contains the part needed for wireless nRF24 communication from STM8 to ESP32. Reading temperature and position from NTC and HALL sensors.
 
