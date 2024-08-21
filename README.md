@@ -1,4 +1,8 @@
 # Baby Sleep Radio Monitor
+Project done for the Engineering Experience class @ Group T - Faculty of Engineering Technology / academic year 2022-23
+
+This repository contains the part needed for wireless nRF24 communication from STM8 to ESP32. Reading temperature and position from NTC and HALL sensors.
+
 ## Abstract
 The Baby Radio Monitoring System (BRMS) is a device designed to address Sudden Infant Death Syndrome (SIDS), the leading cause of death for one-month- to one-year-olds. The design integrates a room temperature and sleeping position monitor since both factors are thought to increase the risk of SIDS, according to the Centers for Disease Control and Prevention. The BRMS is furthermore capable of detecting whether a baby is crying. All temperature, position, and audio data is captured at the baby’s side, processed by a microcontroller, and then sent wirelessly to the parent’s side.
 The temperature monitor was built using a thermistor as its core component. An STM8S105K4 microcontroller closely measures the voltage across this temperature-dependent resistor. This way, the BRMS is capable of tracking the temperature in the baby’s room with up to 0.5 ◦C precision.
