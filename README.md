@@ -14,7 +14,8 @@ The position monitor was built using a Hall sensor as its core component. In add
 For the cry detector, audio signals arriving from a microphone were processed with an ESP32-WROOM- 32 microcontroller using digital processing techniques. The cry detector achieved an 88.4% accuracy in distinguishing infant cries, showing the effectiveness of the cry detection algorithm. Whenever crying, flipping, or unsafe temperature is detected at the infant’s side of the monitor, the parent is warned through an LCD display present at their side. Hence, the BRMS is an effective baby monitoring system.
 
 ### Wireless Communication
-The software needed to control the Si24R1 via STM8 was developed according the STM8S105K4 and the nRF24 datasheets. They explain the specific pinout mapping that had to be used.
+The software needed to control the Si24R1 via STM8 was developed according the [STM8S105K4](https://www.alldatasheet.com/datasheet-pdf/pdf/933892/STMICROELECTRONICS/STM8S105K4.html) and the [nRF24](https://www.sparkfun.com/datasheets/Components/SMD/nRF24L01Pluss_Preliminary_Product_Specification_v1_0.pdf)
+ datasheets. They explain the specific pinout mapping that had to be used.
 | NAME           | PIN |
 |----------------|-----|
 | Chip Enable (CE)          | B0  | 
